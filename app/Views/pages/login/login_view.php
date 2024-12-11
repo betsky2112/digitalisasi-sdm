@@ -54,7 +54,7 @@
                     <div class="login-box mt-5">
                         <h3 class="text-center fw-bolder fs-1"><span class="text-primary fw-bolder fs-1">PRIMA</span> <span class="text-warning fw-bolder fs-1">STAR</span></h3>
                         <h6 class="text-center" style="color: #000000; opacity: 0.4;">Enter your username and password to continue.</h6>
-                        <form action="<?php echo base_url('/das'); ?>" method="GET">
+                        <form action="<?php echo base_url('login/process'); ?>" method="POST">
                             <div class="mb-3">
                                 <label for="username" class="form-label" style="color: #000000; opacity: 0.7;">Username</label>
                                 <input type="text" class="form-control h-25" id="username" name="username" required>
