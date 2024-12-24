@@ -39,7 +39,7 @@ class LoginController extends BaseController
                 ]);
 
                 // Redirect ke halaman dashboard
-                return redirect()->to('das');
+                return redirect()->to('dashboard');
             } else {
                 // Password salah
                 return redirect()->back()->with('error', "Password salah.");
